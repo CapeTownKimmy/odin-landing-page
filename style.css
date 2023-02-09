@@ -1,0 +1,48 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* ----------------------nav bar--------------------- */
+.nav-container {
+    color: white;
+    background-color: #1F2937;
+    padding: 15px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.logo li{
+    font-size: 20px;
+    font-weight: bold;
+    list-style: none;
+}
+.nav-links li {
+    font-size: 18px;
+    list-style: none;
+}
+.nav-links ul{
+    display: flex;
+    gap: 25px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+.nav-links a:hover {
+    color: #DB7093;
+    text-decoration: underline;
+}
+.nav-links a:active {
+    color: #d8bfd8;
+}
+/* ----------------------part 1--------------------- */
+
+/* ----------------------part 2--------------------- */
+
+/* ----------------------part 3--------------------- */
+
+/* ----------------------npart 4--------------------- */
+
+/* ----------------------footer--------------------- */
