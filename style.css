@@ -1,17 +1,18 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0px;
-    padding: 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 /* ----------------------nav bar--------------------- */
 .nav-container {
     color: white;
     background-color: #1F2937;
-    padding: 15px;
+    padding: 15px 200px;
     margin: 0px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .logo li{
     font-size: 20px;
@@ -21,6 +22,9 @@ body {
 .nav-links li {
     font-size: 18px;
     list-style: none;
+}
+ul {
+    padding: 0;
 }
 .nav-links ul{
     display: flex;
@@ -38,6 +42,27 @@ body {
     color: #d8bfd8;
 }
 /* ----------------------part 1--------------------- */
+.part-1 {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #d8bfd8;
+    gap: 30px;
+    padding: 85px 200px 100px 200px;
+}
+.container {
+    border: 1px solid red;
+    flex: 1;
+
+}
+.container img {
+    border: 1px solid green;
+    width: 100%;
+    height: auto;
+}
+
+
 
 /* ----------------------part 2--------------------- */
 
