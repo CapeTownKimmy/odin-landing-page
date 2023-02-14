@@ -190,3 +190,21 @@ div.text p {
 }
 
 /* ----------------------footer--------------------- */
+.footer {
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding: 15px 200px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.footer p {
+    font-size: 16px;
+}
+
+
+
+
+
+
