@@ -129,7 +129,6 @@ ul {
 /* ----------------------part 3--------------------- */
 
 .part-3 {
-    border: 1px solid green;
     background-color: #E5E7EB;
     padding: 150px 200px;
     margin: 0px;
@@ -140,7 +139,6 @@ ul {
     gap: 10px;
 }
 .part-3 blockquote {
-    /* border: 1px solid red; */
     font-size: 36px;
     font-weight: 200;
     font-style: italic;
@@ -149,7 +147,6 @@ ul {
     margin: 0px;
 }
 .part-3 figcaption {
-    /* border: 1px solid red; */
     font-size: 18px;
     font-weight: bolder;
     color: #1F2937;
@@ -160,6 +157,36 @@ ul {
 
 
 
-/* ----------------------npart 4--------------------- */
+/* ----------------------part 4--------------------- */
+
+.part-4 {
+    background-color: #3882F6;
+    width: 1000px;
+    height: auto;
+    border-radius: 15px;
+    padding: 40px 100px;
+    color: #E5E7EB;
+    margin: 90px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div.text h3 {
+    /* border: 1px solid green; */
+    margin: 0px;
+}
+div.text p {
+    /* border: 1px solid green; */
+    margin: 0px;
+}
+.part-4 button {
+    border: 2px solid #E5E7EB;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
+    padding: 5px 25px;
+}
 
 /* ----------------------footer--------------------- */
