@@ -90,6 +90,39 @@ ul {
 
 
 /* ----------------------part 2--------------------- */
+ h2 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    text-align: center;
+ }
+
+.wrapper {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding-bottom: 60px;
+}
+
+.cards img {
+    border: 3px solid #3882F6;
+    border-radius: 20px;
+    width: 250px;
+    height: 250px;
+}
+.cards {
+    /* border: 1px solid green; */
+    margin: 10px 0px;
+    width: 250px;
+    height: auto;
+}
+.cards figcaption {
+    text-align: center;
+    font-size: 18px;
+    color: #1F2937
+}
+
 
 /* ----------------------part 3--------------------- */
 
