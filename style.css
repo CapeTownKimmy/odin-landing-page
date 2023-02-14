@@ -86,7 +86,9 @@ ul {
     border-radius: 10px;
     box-shadow: 2px 2px 5px black;
 }
-
+.container img {
+    border-radius: 20px;;
+}
 
 
 /* ----------------------part 2--------------------- */
@@ -95,12 +97,13 @@ ul {
     font-weight: extra-bold;
     color: #1F2937;
     text-align: center;
+    padding-top: 15px;
  }
 
 .wrapper {
-    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 60px;
     padding-bottom: 60px;
 }
@@ -112,7 +115,6 @@ ul {
     height: 250px;
 }
 .cards {
-    /* border: 1px solid green; */
     margin: 10px 0px;
     width: 250px;
     height: auto;
@@ -125,6 +127,38 @@ ul {
 
 
 /* ----------------------part 3--------------------- */
+
+.part-3 {
+    border: 1px solid green;
+    background-color: #E5E7EB;
+    padding: 150px 200px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.part-3 blockquote {
+    /* border: 1px solid red; */
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1F2937;
+    width: 940px;
+    margin: 0px;
+}
+.part-3 figcaption {
+    /* border: 1px solid red; */
+    font-size: 18px;
+    font-weight: bolder;
+    color: #1F2937;
+    width: 910px;
+    margin: 0px;
+    text-align: end;
+}
+
+
 
 /* ----------------------npart 4--------------------- */
 
